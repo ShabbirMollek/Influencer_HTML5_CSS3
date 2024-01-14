@@ -76,12 +76,12 @@ hr{
                 width: 85%;
             
                
-                /* margin-left: 220px; */
+               
 }
 .banner-1 ,.banner-2{
                 margin-left: 220px;
 }
-.sponser{
+.sponsor{
                 display: grid;
                 grid-template-columns: repeat(7,1fr);
                 row-gap: 10px;
