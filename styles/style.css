@@ -18,7 +18,7 @@
 
 }
 .heading{
-                font-size: 28px;
+                font-size: 1.6rem;
                 font-weight: 700;
 }
 
@@ -34,7 +34,7 @@ li a{
                 margin-left: 15px;
                 margin-right: 15px;
                 color: #143109;
-                font-size: 18px;
+                font-size: 1.2rem;
                 font-weight: 500;
                 font-family: Georgia, 'Times New Roman', Times, serif;
 
@@ -46,7 +46,7 @@ ul{
                
 }
 .banner{
-                height: 700px;
+                height:100vh;
                 display: flex;
                 padding-left: 220px;
                 align-items: center;
@@ -57,7 +57,7 @@ ul{
                
 }
 .h1{
-                font-size:52px ;
+                font-size:3.2rem ;
                 color: #143109;
 }
 .btn-1{
@@ -103,7 +103,7 @@ hr{
                 margin-bottom: 80px;
                 margin-left: -180px;
                 color: #143109;
-                font-size: 34px;
+                font-size: 2rem;
 }
 .container-2{
                 display: grid;
@@ -169,4 +169,86 @@ footer{ margin-top:90px ;
                 padding-top: 10px;
                
                 
+}
+
+/* responsive by media query */
+
+@media  screen and (max-width:576px) {
+
+        .header{
+
+                display: flex;
+                flex-direction: column;
+                margin-top: 40px;
+               
+        }
+        
+        li a  {
+                display: flex;
+                gap: 30px;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-top: 30px;
+        }
+        .hide{
+                display: none;
+        }
+        .banner{
+                flex-direction: column-reverse;
+                padding-left: 0;
+                margin-top: 250px;
+        }
+        .h1{
+                font-size: 2.8rem;
+        }
+        .btn-1{
+                margin-top: 20px;
+        }
+     
+       
+       
+        .container-1{
+                padding: 20px;
+                margin-top: -150px;
+                height: 50vh;
+               
+        }
+        .banner-1{
+                margin:40px;
+                
+        }
+        hr{
+                width: 100%;
+        }
+        .sponsor{
+                grid-template-columns: repeat(3,1fr);
+                row-gap: 10px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                padding:0px;
+                align-items: center;
+               
+        }
+        .banner-2{
+
+                margin-left: 0px;
+        }
+        .heading-2{
+                text-align:center;
+                color: #143109;
+                font-size: 2rem;
+
+        }
+        .container-2{
+
+                grid-template-columns: repeat(1,1fr);
+                row-gap: 25px;
+                width: 100%;
+        }
+
+
+
+
+
+
 }
